@@ -12,13 +12,14 @@
 
 
 
-.navbar li 
-a {
+
+
+.navbar a {
   position: relative;
   text-decoration: none;
 }
 
-a::before {
+.navbar a::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -32,7 +33,7 @@ a::before {
   transition: transform .3s ease-in-out;
 }
 
-a:hover::before {
+.navbar a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
@@ -117,8 +118,8 @@ h3 {
     color: white;
     width: 200px;
     font-family: "Jost", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 25px;
 }
 
 .button {
@@ -131,9 +132,12 @@ h3 {
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .button:hover {
     background-color: rgb(134, 114, 150);
+    color: white;
 }
+
+
