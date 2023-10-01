@@ -1,0 +1,48 @@
+.navbar li {
+    list-style-type:none;
+    text-align: right;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.navbar span {
+    float: right;
+    padding: 10px;
+}
+
+.navbar li:hover {
+    background-color: rgb(250, 143, 250);
+    transition: 0.3s ease;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    padding: 15px;
+    font-family: "Jost", sans-serif;
+}
+
+.navbar-brand img {
+    width: 140px;
+    height: 90px;
+    margin-left: -30px;
+    margin-top: -12px;
+    margin-bottom: -25px;
+}
+
+.appetizer {
+    background-color: rgb(50, 27, 68);
+}
+
+.appetizer h1, h2, p {
+    margin: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: left;
+}
