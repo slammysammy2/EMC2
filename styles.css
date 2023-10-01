@@ -12,6 +12,56 @@
 
 
 
+
+
+.navbar li 
+a {
+  color: #18272F;
+  position: relative;
+  text-decoration: none;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    padding: 15px;
+    font-family: "Jost", sans-serif;
+}
+
+.navbar-brand img {
+    width: 65px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: -17px;
+    margin-bottom: -15px;
+}
+
+
+
+
+
+
 .appetizer {
     background-color: rgb(50, 27, 68);
 }
