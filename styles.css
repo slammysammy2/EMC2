@@ -10,9 +10,36 @@
     padding: 10px;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
 
+    .navbar li {
+        display: block;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 
+    .navbar span {
+        display: block;
+        float: none;
+        padding: 0;
+        margin: 0;
+    }
 
+    .appetizer h1, .appetizer h2, .appetizer p, #myList {
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    #myHeadshot {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
 
 .navbar a {
   position: relative;
