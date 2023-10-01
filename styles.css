@@ -10,26 +10,7 @@
     padding: 10px;
 }
 
-.navbar li:hover {
-    background-color: rgb(250, 143, 250);
-    transition: 0.3s ease;
-}
 
-.navbar a {
-    text-decoration: none;
-    font-size: 18px;
-    color: gray;
-    padding: 15px;
-    font-family: "Jost", sans-serif;
-}
-
-.navbar-brand img {
-    width: 140px;
-    height: 90px;
-    margin-left: -30px;
-    margin-top: -12px;
-    margin-bottom: -25px;
-}
 
 .appetizer {
     background-color: rgb(50, 27, 68);
