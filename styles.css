@@ -41,8 +41,23 @@
 
 h1 {
     color: white;
+    font-family: 'Birthstone Bounce', cursive;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+h2 {
+    color: white;
     font-family: "Jost", sans-serif;
     font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+p {
+    color: white;
+    font-family: "Jost", sans-serif;
     letter-spacing: 1px;
     text-align: left;
 }
