@@ -47,7 +47,7 @@
 .navbar-brand img {
     width: 65px;
     height: 90px;
-    margin-left: 10px;
+    margin-left: 6px;
     margin-top: -17px;
     margin-bottom: -15px;
 }
@@ -138,16 +138,29 @@ h3 {
 }
 
 
+.shard {
+    background-image: url("london.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
 .quote {
     display: inline-block;
-    width: 300px;
+    width: 500px;
     height: 20px;
-    padding: 70px 10px;
+    border-radius: 5%;
+    padding: 60px 5px 80px 5px;
     background-color: lightgrey;
+    opacity: 0.6;
+    font-family: "Jost", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
  }
 
  .quote1 {
     text-align: center;
-    padding: 20px;
-    margin: 20px;
+    padding: 200px;
  }
+
