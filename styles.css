@@ -138,10 +138,16 @@ h3 {
 }
 
 .section {
-    opacity: 0; /* Initially hidden */
-    transform: translateY(20px); /* Initial position below */
-    transition: opacity 0.5s ease, transform 0.5s ease;
+position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
 }
+
+.section.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
 h4 {
     font-family: "Jost", sans-serif;
