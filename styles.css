@@ -148,7 +148,7 @@ h4 {
     font-family: "Jost", sans-serif;
     font-size: 45px; 
     letter-spacing: 1px;
-    font-weight: lighter;
+    font-weight:300;
     text-align: center;
     padding: 40px;
     margin: 40px;
@@ -158,12 +158,37 @@ h4 {
     font-size: 20px;
  }
 
+ h7 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px; 
+    letter-spacing: 1px;
+    font-weight: 200;
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+    margin-bottom: -150px;
+    display:block;
+ }
+
+
 #offerCard {
     width: 18rem;
     background-color: rgb(134, 114, 150);
 }
 
 
+#carouselButton1 {
+    margin-left: -80px;
+}
+
+#carouselButton2 {
+    margin-right: -60px;;
+}
+
+#carouselText {
+    font-family: "Jost", sans-serif;
+    
+}
 
 
 section{
