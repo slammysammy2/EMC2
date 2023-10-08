@@ -138,25 +138,7 @@ h3 {
 }
 
 
-.quote {
-    display: inline-block;
-    width: 500px;
-    height: 60px;
-    border-radius: 15px;
-    padding: 60px 5px 80px 5px;
-    background-color: lightgrey;
-    opacity: 0.5;
-    font-family: "Jost", sans-serif;
-    font-size: 28px;
-    font-weight: 500;
- }
-
- .quote1 {
-    text-align: center;
-    padding: 400px;
- }
-
- h4 {
+ h5 {
     font-family: "Jost", sans-serif;
     font-size: 30px; 
     letter-spacing: 1px;
