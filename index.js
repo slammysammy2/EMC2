@@ -8,7 +8,7 @@ document.addEventListener("scroll", function() {
 
     // Adjust these values based on when you want the animation to trigger
     if (scrollPosition > 300) {
-        section.style.opacity = 1;
+        section.style.opacity = 10;
         section.style.transform = "translateY(0)";
     } else {
         section.style.opacity = 0;
