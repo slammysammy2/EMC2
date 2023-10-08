@@ -163,18 +163,13 @@ h4 {
     background-color: rgb(134, 114, 150);
 }
 
-
-
-.carousel-indicators li {
-    border: none;
-    background: #ccc;
+#indicator1 {
+    margin-left: -65px;
 }
 
-.carousel-indicators li.active {
-    background: #28a745;
+#indicator2 {
+    margin-right: -50px;
 }
-
-
 
 
 section{
