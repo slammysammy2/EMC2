@@ -44,7 +44,7 @@
     font-family: "Jost", sans-serif;
 }
 
-.navbar-brand img {
+.navbar-logo img {
     width: 65px;
     height: 90px;
     margin-left: 6px;
@@ -150,19 +150,19 @@ h3 {
 .quote {
     display: inline-block;
     width: 500px;
-    height: 20px;
-    border-radius: 5%;
+    height: 60px;
+    border-radius: 15px;
     padding: 60px 5px 80px 5px;
     background-color: lightgrey;
-    opacity: 0.6;
+    opacity: 0.5;
     font-family: "Jost", sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
  }
 
  .quote1 {
     text-align: center;
-    padding: 200px;
+    padding: 400px;
  }
 
  h4 {
