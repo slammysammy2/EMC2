@@ -58,6 +58,9 @@
 
 
 
+
+
+
 .appetizer {
     background-color: rgb(50, 27, 68);
 }
@@ -80,6 +83,7 @@ h2 {
     font-weight: lighter;
     letter-spacing: 1px;
     text-align: left;
+   
 }
 
 p {
@@ -137,6 +141,25 @@ h3 {
     color: white;
 }
 
+
+h4 {
+    font-family: "Jost", sans-serif;
+    margin-top: 150px;
+}
+ h5 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px; 
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+ }
+
+
+
+
+
+
+
 section{
     min-height: 100vh;
     display: flex;
@@ -157,43 +180,7 @@ section{
     color: #42455a;
     background: #e0ffff;
   }
-  section .container{
-    margin: 100px;
-  }
-  section h1{
-    font-size: 3rem;
-    margin: 20px;
-  }
-  section h2{
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  section .text-container{
-     display: flex;
-  }
-  section .text-container .text-box{
-    margin: 20px;
-    padding: 20px;
-    background: #00c2cb;
-  }
-  section .text-container .text-box h3{
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  
-  @media (max-width: 900px){
-    section h1{
-      font-size: 2rem;
-      text-align: center;
-    }
-    section .text-container{
-      flex-direction: column;
-    }
-  }
-  
+ 
   .reveal{
     position: relative;
     transform: translateY(150px);
@@ -211,15 +198,4 @@ section{
 
 
 
-h4 {
-    font-family: "Jost", sans-serif;
-    margin-top: 150px;
-}
- h5 {
-    font-family: "Jost", sans-serif;
-    font-size: 30px; 
-    letter-spacing: 1px;
-    font-weight: lighter;
-    text-align: center;
- }
 
