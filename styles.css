@@ -165,6 +165,18 @@ h4 {
 
 
 
+.carousel-indicators li {
+    border: none;
+    background: #ccc;
+}
+
+.carousel-indicators li.active {
+    background: #28a745;
+}
+
+
+
+
 section{
     min-height: 100vh;
     display: flex;
