@@ -60,10 +60,13 @@
     padding-bottom: 60px;
 }
 
-.appetizer h1, h2, p {
+.appetizer h1, h2 {
   margin-left: 150px;
 }
 
+#paragraphMargin {
+    margin-left: 150px;
+}
 h1 {
     color: white;
     font-family: 'Birthstone Bounce', cursive;
@@ -82,11 +85,9 @@ h2 {
 }
 
 p {
-    color: white;
     font-family: "Jost", sans-serif;
     font-weight:200;
     letter-spacing: 1px;
-    text-align: left;
 }
 
 #myList {
@@ -153,8 +154,14 @@ h4 {
     margin: 40px;
  }
 
+ h6 {
+    font-size: 20px;
+ }
 
-
+#offerCard {
+    width: 18rem;
+    background-color: rgb(134, 114, 150);
+}
 
 
 
@@ -163,20 +170,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  section:nth-child(1){
-    color: whitesmoke;
-    }
-  section:nth-child(2){
-    color: whitesmoke;
-    background: whitesmoke;
-  } 
-  section:nth-child(3){
-    color: whitesmoke;
-  }
-  section:nth-child(4){
-    color: whitesmoke;
-    background:  whitesmoke;
   }
  
   .reveal{
