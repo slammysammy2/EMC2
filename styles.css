@@ -191,12 +191,22 @@ h4 {
 }
 
 
-section{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.podCast {
+    background-color: rgb(134, 114, 150);
+}
+
+h8 {
+    color: white;
+    font-family: 'Birthstone Bounce', cursive;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+
+
  
   .reveal{
     position: relative;
