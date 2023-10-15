@@ -206,8 +206,7 @@ h8 {
     margin: 0 auto;
 }
 
-
-h9 {
+.head {
     color: white;
     font-size: 30px;
     font-family: "Jost", sans-serif;
@@ -215,6 +214,17 @@ h9 {
     letter-spacing: 1px;
     text-align: center;
 }
+
+#eBook {
+    max-width: 230px; 
+   height: 300px; 
+   margin-left: 50px;
+   margin-top: 200px;
+   border-width: 2px;
+   border-radius: 5%;
+}
+
+
 
 
  
