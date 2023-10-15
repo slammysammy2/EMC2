@@ -199,12 +199,22 @@ h8 {
     color: white;
     font-family: 'Birthstone Bounce', cursive;
     font-weight: lighter;
-    letter-spacing: 1px;
+    font-size: 30px;
+    letter-spacing: 2px;
     text-align: center;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 
-
+h9 {
+    color: white;
+    font-size: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: center;
+}
 
 
  
