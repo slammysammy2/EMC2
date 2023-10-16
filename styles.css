@@ -193,6 +193,7 @@ h4 {
 
 .podCast {
     background-color: rgb(134, 114, 150);
+    padding: 50px;
 }
 
 h8 {
@@ -201,7 +202,7 @@ h8 {
     font-weight: lighter;
     font-size: 30px;
     letter-spacing: 2px;
-    text-align: center;
+    text-align: right;
     padding: 20px;
     margin: 0 auto;
 }
@@ -212,16 +213,12 @@ h8 {
     font-family: "Jost", sans-serif;
     font-weight: lighter;
     letter-spacing: 1px;
-    text-align: center;
+    text-align: left;
 }
 
 #eBook {
-    max-width: 230px; 
-   height: 300px; 
-   margin-left: 50px;
-   margin-top: 200px;
-   border-width: 2px;
-   border-radius: 5%;
+max-height: 300px;
+   
 }
 
 
