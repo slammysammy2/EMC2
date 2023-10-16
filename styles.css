@@ -192,40 +192,39 @@ h4 {
 
 
 .podCast {
-    background-color: rgb(50, 27, 68);
-    padding: 50px;
-   
+    background-color: rgb(134, 114, 150);
+    padding: 15px;
+
 }
 
 h8 {
     color: white;
     font-family: 'Birthstone Bounce', cursive;
     font-weight: lighter;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
-    text-align: left;
-  
-    
+    margin-left: 190px;
 }
 
-.ebookTitle {
+#ebookTitle {
     color: white;
     font-size: 25px;
     font-family: "Jost", sans-serif;
-    font-weight: lighter;
+    font-weight: 200;
     letter-spacing: 1px;
-    text-align: left;
-  
+    margin-left: 200px;
+}
+
+.podCast p {
+    margin-left: 200px;
+    font-size: 15px;
 }
 
 #eBook {
-max-height: 300px;
-}
+    max-height: 300px;
+    
+    }
 
-
-
-
- 
   .reveal{
     position: relative;
     transform: translateY(150px);
