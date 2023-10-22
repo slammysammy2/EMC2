@@ -254,7 +254,9 @@ position: absolute;
   transform: translate(-50%, -50%);
 }
 
-
+#coachingContainer {
+    background-color: rgb(134, 114, 150);
+}
 
 
 
