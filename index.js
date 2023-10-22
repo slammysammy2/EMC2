@@ -19,3 +19,41 @@ function reveal() {
   }
   
   window.addEventListener("scroll", reveal);
+
+
+
+  console.clear();
+
+  gsap.registerPlugin(ScrollTrigger);
+  
+  let pinGroups = gsap.utils.toArray(".pin-group");
+  pinGroupContent = gsap.utils.toArray(".pin-group > *");
+  
+  pinGroups.forEach((pingroup) => {
+    ScrollTrigger.create({
+      trigger: pingroup,
+      start: "center center",
+      end: "+=" + window.innerHeight / 2,
+      pin: true
+    });
+  });
+  
+  gsap.set(pinGroupContent, {
+    opacity: 0,
+    y: 100
+  });
+  
+  const enterConfig = { y: 0, opacity: 1, duration: 0.4 };
+  
+  pinGroupContent.forEach((e, i) => {
+    ScrollTrigger.create({
+      trigger: e,
+      start: "center 80%",
+      end: "bottom 40%",
+      onEnter: () => gsap.to(e, enterConfig),
+      onEnterBack: () => gsap.to(e, enterConfig),
+      onLeave: () => gsap.to(e, { y: -100, opacity: 0, duration: 0.4 }),
+      onLeaveBack: () => gsap.to(e, { y: 100, opacity: 0, duration: 0.4 }),
+      markers: true
+    });
+  });
