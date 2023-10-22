@@ -258,7 +258,12 @@ position: absolute;
     background-color: rgb(134, 114, 150);
 }
 
-
+#coachText {
+    font-family: "Jost", sans-serif;
+    font-weight:200;
+    letter-spacing: 1px;
+    color: white;
+}
 
 
 
