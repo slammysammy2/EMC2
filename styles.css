@@ -225,6 +225,16 @@ h8 {
     
     }
 
+
+#socials a {
+text-decoration: none;
+color: white;
+}
+
+
+
+
+
   .reveal{
     position: relative;
     transform: translateY(150px);
