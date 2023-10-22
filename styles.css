@@ -222,8 +222,18 @@ h8 {
 
 #eBook {
     max-height: 300px;
-    
     }
+
+
+
+ #riverBench {
+    width: 300px; 
+   height: 390px; 
+   border-style: solid;
+   border-color: rgb(134, 114, 150);
+   border-radius: 5%;
+ }
+
 
 
 #socials a {
