@@ -228,10 +228,21 @@ h8 {
 
 #socials a {
 text-decoration: none;
-color: white;
+color: rgb(50, 27, 68);
+
 }
 
+#socials button {
+    list-style-type:none;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+}
 
+#footerLogo {
+    width: 60px;
+    height: 90px;
+}
 
 
 
