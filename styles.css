@@ -265,7 +265,13 @@ position: absolute;
     color: white;
 }
 
-
+#coachingOne {
+    width: 390px; 
+    height: 300px; 
+    border-style: solid;
+    border-color: rgb(134, 114, 150);
+    border-radius: 5%;  
+}
 
 
 #socials a {
