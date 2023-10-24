@@ -243,6 +243,7 @@ h8 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    background: linear-gradient(rgba(210, 71, 90, 0.5), rgba(210, 71, 90, 0.5)),
 }
 
 
