@@ -327,7 +327,18 @@ position: absolute;
 }
 
 
-
+.text-block-office {
+    position: absolute;
+    background-color: white;
+    color: black;
+    opacity: .85;
+    text-align: left;
+    bottom: 300px;
+    left: 250px;
+    padding: 40px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif; 
+}
 
 
 #socials a {
