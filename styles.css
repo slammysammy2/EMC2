@@ -274,6 +274,8 @@ position: absolute;
 #coachingContainer {
     background-color: rgb(134, 114, 150);
     z-index: 1;
+    position: relative;
+    bottom: 20px;
 }
 
 #coachText {
@@ -295,15 +297,21 @@ position: absolute;
     position: relative;
     z-index:0;
     bottom:40px;
+    opacity: .85;
 }
 
 .text-block {
     position: absolute;
     background-color: white;
-    color: darkgray;
-    opacity: .9;
-    
-}
+    color: black;
+    opacity: .85;
+    text-align: left;
+    bottom: 180px;
+    left: 180px;
+    padding: 40px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+  }
 
 
 
