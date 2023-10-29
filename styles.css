@@ -1,3 +1,4 @@
+
 .navbar li {
     list-style-type:none;
     text-align: right;
@@ -52,12 +53,19 @@
 
 
 
-
-
 .appetizer {
     background-color: rgb(50, 27, 68);
     padding-top: 60px;
     padding-bottom: 60px;
+    z-index: 1;
+    position: relative;
+}
+
+.card {
+    z-index: 0;
+    bottom: 80px;
+    position: relative;
+    opacity: .9;
 }
 
 .appetizer h1, h2 {
@@ -152,6 +160,12 @@ h4 {
     text-align: center;
     padding: 40px;
     margin: 40px;
+  
+ }
+
+ #over {
+    z-index: 2;
+    position: relative;
  }
 
  h6 {
@@ -169,6 +183,10 @@ h4 {
     margin-bottom: -150px;
     display:block;
  }
+
+
+
+
 
 
 #offerCard {
@@ -241,7 +259,6 @@ h8 {
     background-size: cover; 
     background-position: center;
     width: 100%;
-    overflow: hidden;
     position: relative;
     background: linear-gradient(rgba(210, 71, 90, 0.5), rgba(210, 71, 90, 0.5)),
 }
@@ -256,7 +273,7 @@ position: absolute;
 
 #coachingContainer {
     background-color: rgb(134, 114, 150);
-
+    z-index: 1;
 }
 
 #coachText {
@@ -273,6 +290,21 @@ position: absolute;
     border-color: rgb(134, 114, 150);
     border-radius: 5%;  
 }
+
+#purpleFlowers {
+    position: relative;
+    z-index:0;
+    bottom:40px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
