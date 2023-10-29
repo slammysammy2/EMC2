@@ -297,8 +297,13 @@ position: absolute;
     bottom:40px;
 }
 
-
-
+.text-block {
+    position: absolute;
+    background-color: white;
+    color: darkgray;
+    opacity: .9;
+    
+}
 
 
 
