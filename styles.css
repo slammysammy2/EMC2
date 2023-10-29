@@ -1,4 +1,8 @@
 
+body{ 
+    overflow-x :hidden; 
+    } 
+
 .navbar li {
     list-style-type:none;
     text-align: right;
@@ -314,8 +318,13 @@ position: absolute;
   }
 
 
-
-
+.corporate {
+    background-color: rgb(50, 27, 68);
+    padding-bottom: 60px;
+    z-index: 1;
+    position: relative;  
+    margin-top: -60px;
+}
 
 
 
