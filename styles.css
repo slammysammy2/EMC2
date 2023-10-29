@@ -301,15 +301,6 @@ color: rgb(50, 27, 68);
 
 
 
-.child {
-    position: relative;
-    z-index: 5;
-}
-
-.parent {
-    position: absolute;
-z-index: 4;
-}
 
 
 
