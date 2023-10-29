@@ -256,6 +256,7 @@ position: absolute;
 
 #coachingContainer {
     background-color: rgb(134, 114, 150);
+
 }
 
 #coachText {
@@ -272,6 +273,7 @@ position: absolute;
     border-color: rgb(134, 114, 150);
     border-radius: 5%;  
 }
+
 
 
 #socials a {
@@ -295,6 +297,20 @@ color: rgb(50, 27, 68);
     width: 150px;
     height: 50px;
 }
+
+
+
+
+.child {
+    position: relative;
+    z-index: 5;
+}
+
+.parent {
+    position: absolute;
+z-index: 4;
+}
+
 
 
 
