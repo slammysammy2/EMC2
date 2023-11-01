@@ -209,14 +209,12 @@ h4 {
 
 #carouselText {
     font-family: "Jost", sans-serif;
-    
 }
 
 
 .podCast {
     background-color: rgb(134, 114, 150);
     padding: 15px;
-
 }
 
 h8 {
@@ -342,6 +340,12 @@ position: absolute;
 #thumbnail {
     width: 250px;
     height: 250px;
+}
+
+#tub {
+    position: relative;
+  width: 150%;
+  
 }
 
 
