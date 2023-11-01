@@ -260,11 +260,8 @@ h8 {
 
 #wall {
     background-repeat: no-repeat;
-    background-size: cover; 
     background-position: center;
     width: 100%;
-    position: relative;
-    background: linear-gradient(rgba(210, 71, 90, 0.5), rgba(210, 71, 90, 0.5)),
 }
 
 
