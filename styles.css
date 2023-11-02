@@ -342,11 +342,24 @@ position: absolute;
     height: 250px;
 }
 
-#tub {
+
+
+.text-block-tub {
+    background-color: white;
+    color: black;
+    opacity: .85;
+    text-align: center;
+   top: -600px;
+    left: 430px;
+    padding: 10px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    block-size: 150px;
+    width: 400px;
     position: relative;
-  width: 150%;
-  
-}
+    z-index:0;
+    opacity: .85;
+  }
 
 
 
