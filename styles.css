@@ -363,6 +363,11 @@ position: absolute;
 
 
 
+  .bd-purple-300 {
+    color: #fff;
+    background-color: #9d7ed5; }
+
+
 #socials a {
 text-decoration: none;
 color: rgb(50, 27, 68);
