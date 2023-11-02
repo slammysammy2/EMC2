@@ -73,7 +73,7 @@
 
 
 <section class="reveal">
-    <div class="row" style="bottom: 350px; position: relative; width: 125%; height: auto;">
+    <div class="row" style="bottom: 350px; position: relative; width: 125%; height: auto; margin-left: -40px;">
         <div class="col-md-10">
             <img src="Join the EMC Community.jpg"  class="img-fluid">
         </div>
@@ -81,26 +81,9 @@
 </section>
 
 
-
-
-<footer class="text-center text-lg-start">
-    <div class="container d-flex justify-content-center py-5" >
-    <div class="row">
-    
-    <div class="col-6 col-md-4">
-    <div>
-    <img src="IAPCM-logo.jpg" alt="iapcm logo" id="footerCredit" class="rounded mx-auto img-fluid" >
-    </div>
-    <div>
-    <img src="coachingmasters.jpg" alt="coachingmasters" id="footerCredit" class="rounded mx-auto img-fluid">
-    </div>
-    </div>
-    
-    <div class="col-6 col-md-2">
-        <img src="logoTwo.jpg" id="footerLogo">
-    </div>
-          
-    <div class="col-6 col-md-1 btn-group" id="socials">
+<section style="margin-top: -350px;" class="reveal">
+<div class="row justify-content-center">
+    <div class="col-md-5 btn-group" id="socials">
             <button type="button" class="btn btn-md btn-floating mx-2" style="background-color: white;">
                 <a href="https://www.facebook.com/profile.php?id=100088923888644" target="_blank" class="fab fa-facebook-f"></a>
             </button>
@@ -114,6 +97,76 @@
               <a href="https://www.linkedin.com/in/delphine-legat/?originalSubdomain=uk" target="_blank" class="fab fa-linkedin"></a>
             </button>
         </div>
+    </div>
+</div>
+</section>
+
+</br>
+</br>
+
+<section>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-dark fw-normal">
+                Schedule a free clarity call
+                <br>
+                <br>
+                <ul class="pt-3 mr-3 reveal">
+                <!-- Calendly link widget begin -->
+                <a href=""  id="calendlyButton" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/yourelitemindsetcoach/30min'});return false;">Clarity Call</a>
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                </ul>
+                <!-- Calendly link widget end -->
+            </h2>    
+        </div>
+    
+
+        <div class="col-md-6">
+            <h2 class="text-dark fw-normal">
+                Send me a message
+            </h2>
+            <div class="form-box">
+                <form action="https://api.formbucket.com/f/c2K3QTQ" method="post">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" id="name" type="text" name="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" type="email" name="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="Message"></textarea>
+                  </div>
+                  <input class="btn btn-primary" type="submit" value="Submit" />
+                  </div>
+                </form>
+              </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="text-center text-lg-start">
+    <div class="container d-flex justify-content-center py-5" >
+    <div class="row">
+    
+    <div class="col-md-6">
+    <div>
+    <img src="IAPCM-logo.jpg" alt="iapcm logo" id="footerCredit" class="rounded mx-auto img-fluid" >
+    </div>
+    <div>
+    <img src="coachingmasters.jpg" alt="coachingmasters" id="footerCredit" class="rounded mx-auto img-fluid">
+    </div>
+    </div>
+    
+    <div class="col-md-6">
+        <img src="logoTwo.jpg" id="footerLogo">
+    </div>
+          
+    
     </div>  
 </div>
           <!-- Copyright -->
@@ -122,7 +175,7 @@
             <a class="text-white" href="https://www.delphinelegat.com/">delphinelegat.com</a>
           </div>
           <!-- Copyright -->
-        </footer>
+</footer>
         
 </body>
 </html>
