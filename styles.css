@@ -72,13 +72,8 @@ body{
     opacity: .9;
 }
 
-.appetizer h1, h2 {
-  margin-left: 150px;
-}
 
-#paragraphMargin {
-    margin-left: 150px;
-}
+
 h1 {
     color: white;
     font-family: 'Birthstone Bounce', cursive;
@@ -108,14 +103,13 @@ p {
     font-weight:200;
     letter-spacing: 1px;
     text-align: left; 
-    margin-left: 160px;
+   
     margin-top: -5px;
 }
 
 #myHeadshot {
     max-width: 230px; 
    height: 300px; 
-   margin-left: 50px;
    margin-top: 200px;
    border-width: 2px;
    border-radius: 5%;
@@ -142,6 +136,14 @@ h3 {
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s ease;
+}
+
+
+@media (max-width: 576px) { 
+    .calendly-badge-widget {
+    right: auto !important; 
+    left: 20px !important; 
+    } 
 }
 
 #calendlyButton:hover {
