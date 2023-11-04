@@ -166,8 +166,16 @@ h4 {
     text-align: center;
     padding: 40px;
     margin: 40px;
-  
  }
+
+ @media (max-width: 576px) { 
+    h5 {
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+       text-align: left;
+    } 
+}
 
  #over {
     z-index: 2;
@@ -200,6 +208,13 @@ h4 {
     background-color: rgb(134, 114, 150);
 }
 
+@media (max-width: 576px) { 
+    #offerCard {
+        font-size: 9px;
+        width: 12rem;
+    } 
+}
+
 
 #carouselButton1 {
     margin-left: -80px;
@@ -219,13 +234,22 @@ h4 {
     padding: 15px;
 }
 
+
+
 h8 {
     color: white;
     font-family: 'Birthstone Bounce', cursive;
     font-weight: lighter;
     font-size: 30px;
     letter-spacing: 2px;
-    margin-left: 190px;
+   
+}
+
+@media (max-width: 576px) { 
+    h8 {
+        font-size: 16px;
+        margin: 0px;
+    } 
 }
 
 #ebookTitle {
@@ -234,12 +258,28 @@ h8 {
     font-family: "Jost", sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
-    margin-left: 200px;
+ 
+}
+
+@media (max-width: 576px) { 
+    #ebookTitle {
+        font-size: 14px;
+        margin: 0px;
+        text-align: left;
+    } 
 }
 
 .podCast p {
-    margin-left: 200px;
+    
     font-size: 15px;
+}
+
+@media (max-width: 576px) { 
+    .podCast p {
+        font-size: 12px;
+        margin: 0px;
+        text-align: left;
+    } 
 }
 
 #eBook {
