@@ -185,17 +185,6 @@ h4 {
     font-size: 20px;
  }
 
- h7 {
-    font-family: "Jost", sans-serif;
-    font-size: 30px; 
-    letter-spacing: 1px;
-    font-weight: 200;
-    text-align: center;
-    padding: 40px;
-    margin: 40px;
-    margin-bottom: -150px;
-    display:block;
- }
 
 
 
@@ -215,6 +204,13 @@ h4 {
 }
 
 
+@media (max-width: 576px) { 
+    #resCard {
+        padding: 10px;
+        margin-left: 170px;
+    } 
+}
+
 #carouselButton1 {
     margin-left: -80px;
 }
@@ -230,7 +226,7 @@ h4 {
 
 .podCast {
     background-color: rgb(134, 114, 150);
-    padding: 15px;
+    padding: 40px;
 }
 
 
@@ -253,7 +249,7 @@ h8 {
 
 #ebookTitle {
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Jost", sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
@@ -262,7 +258,7 @@ h8 {
 
 @media (max-width: 576px) { 
     #ebookTitle {
-        font-size: 14px;
+        font-size: 20px;
         margin: 0px;
         text-align: left;
     } 
@@ -276,7 +272,6 @@ h8 {
 @media (max-width: 576px) { 
     .podCast p {
         font-size: 12px;
-        margin: 0px;
         text-align: left;
     } 
 }
