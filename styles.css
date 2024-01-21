@@ -103,7 +103,6 @@ p {
     font-weight:200;
     letter-spacing: 1px;
     text-align: left; 
-   
     margin-top: -5px;
 }
 
@@ -417,8 +416,8 @@ color: rgb(50, 27, 68);
 }
 
 #footerLogo {
-    width: 70px;
-    height: 110px;
+    width: 90px;
+    height: 100px;
 }
 
 #footerCredit {
@@ -444,7 +443,6 @@ color: rgb(50, 27, 68);
     transform: translateY(0);
     opacity: 1;
   }
-
 
 
 
