@@ -73,6 +73,22 @@ body{
 }
 
 
+#tidycalLink {
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#tidycalLink:hover {
+    background-color: rgb(134, 114, 150);
+    color: white; 
+}
 
 h1 {
     color: white;
@@ -137,13 +153,6 @@ h3 {
     transition: 0.3s ease;
 }
 
-
-@media (max-width: 576px) { 
-    .calendly-badge-widget {
-    right: auto !important; 
-    left: 20px !important; 
-    } 
-}
 
 #calendlyButton:hover {
     background-color: rgb(134, 114, 150);
