@@ -85,7 +85,7 @@ body{
     transition: 0.3s ease;
 }
 
-#tidycalLink a {
+h3 a {
     padding: 10px 20px;
     background-color: whitesmoke;
     color: black;
