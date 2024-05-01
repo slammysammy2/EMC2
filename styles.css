@@ -85,6 +85,16 @@ body{
     transition: 0.3s ease;
 }
 
+#tidycalLink a {
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 #tidycalLink:hover {
     background-color: rgb(134, 114, 150);
     color: white; 
