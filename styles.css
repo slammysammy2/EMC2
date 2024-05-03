@@ -76,9 +76,9 @@ body{
 
 .hover-tidycal {
     background-color: rgb(221, 125,37);
-    padding: 10px 20px;
+    padding: 5px 80px;
     border-radius: 20px;
-    border: 4px black;
+    border: .5px solid white;
     cursor: pointer;
     transition: 0.3s ease;
     text-decoration: none;
@@ -89,10 +89,8 @@ body{
     color: white;
 }
 
-
 .hover-tidycal:hover {
     background-color: white;
-    text-decoration: none;
 }
 
 .hover-tidycal:hover a {
@@ -142,9 +140,9 @@ p {
 }
 
 #myHeadshot {
-    max-width: 230px; 
-   height: 300px; 
-   margin-top: 200px;
+    max-width: 300px; 
+   height: 360px; 
+   margin-top: 70px;
    border-width: 2px;
    border-radius: 5%;
    border-style: solid;
