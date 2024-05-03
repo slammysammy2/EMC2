@@ -54,10 +54,21 @@ body{
 
 
 
+#text-block {
+    background: rgb(50, 27, 68, .9);
+    border-radius: 10px; 
+}
 
-
-
-
+#hero-image {
+    background: url('london1.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
 .hover-tidycal {
     background-color: rgb(221, 125,37);
@@ -127,7 +138,7 @@ p {
 #myHeadshot {
     max-width: 340px; 
    height: 300px; 
-   margin-top: 70px;
+   margin-top: 200px;
    border-width: 2px;
    border-radius: 5%;
    border-style: solid;
