@@ -73,6 +73,7 @@ body{
 }
 
 
+
 .hover-tidycal {
     background-color: rgb(221, 125,37);
     padding: 10px 20px;
@@ -80,14 +81,23 @@ body{
     border: 4px black;
     cursor: pointer;
     transition: 0.3s ease;
+    text-decoration: none;
 }
+
+.hover-tidycal a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .hover-tidycal:hover {
     background-color: white;
+    text-decoration: none;
 }
 
 .hover-tidycal:hover a {
     color:rgb(50, 27, 68);
+    text-decoration: none;
 }
 
 h3 a {
