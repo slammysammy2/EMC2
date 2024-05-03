@@ -57,21 +57,6 @@ body{
 
 
 
-.appetizer {
-    background-color: rgb(50, 27, 68);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    z-index: 1;
-    position: relative;
-}
-
-.home-quote {
-    z-index: 0;
-    bottom: 80px;
-    position: relative;
-    opacity: .9;
-}
-
 
 
 .hover-tidycal {
@@ -183,10 +168,7 @@ h4 {
     } 
 }
 
- #over {
-    z-index: 2;
-    position: relative;
- }
+
 
  h6 {
     font-size: 20px;
