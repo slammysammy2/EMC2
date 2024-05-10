@@ -6,21 +6,34 @@
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
     <link rel="stylesheet" href="styles.css" />
     <script src='index.js'></script>
     <link rel="stylesheet" href="index.js" type="text/Javascript">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
    
     <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Jost:wght@100;200;300;400&display=swap');
-      </style> 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@1,400..900&display=swap" rel="stylesheet">
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     </head>
 <body>
     <nav class="navbar navbar-expand-md">
-        <span class="navbar-text"> <a class="navbar-logo" class="navbar-brand" href="#" ><img src="logo.jpg" alt="navlogo" class="img-fluid" /></a></span>
+        <span class="navbar-text"> <a class="navbar-logo" class="navbar-brand" href="#" ><img src="logoP.png" alt="navlogo" class="img-fluid" /></a></span>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,14 +42,13 @@
         <li class="nav-item">
             <a href="index.html"  class="nav-link" >Home</a>
         </li>
+      <div class="dropdown">
         <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
+          <a href="coaching.html"  class="nav-link" >Coaching</a> 
         </li>
+      </div>
         <li class="nav-item">
-            <a href="coaching.html" class="nav-link">Coaching</a>
-        </li>
-        <li class="nav-item">
-            <a href="ebook.html" class="nav-link">E-book</a>
+            <a href="newsletter.html" class="nav-link">Newsletter</a>
         </li>
         <li class="nav-item">
             <a href="podcast.html" class="nav-link">Podcast</a>
@@ -50,157 +62,169 @@
 
 
 
-<div class="appetizer">
-<section>
-        <div class="row justify-content-center m-3 pe-3">
-          <div class="col-md-5">
-            <h1 class="pb-3 text-white">Hey!</h1>
-            <h2>I'm Delphine, a Confidence & Mindset Coach.</h2>
-            <p class="lh-base pt-4 text-white">
-                I help ambitious women rediscover themselves, start actually living instead of existing, and
-            become an ACTIVE participant to a life you love.
-            Because you absolutely deserve it. And the best bit is, your best chapter is just around the
-            corner. 
-            My mission is to empower you to dream big and to aim for the stars, be unapologetically
-            authentic, and show up for yourself to achieve your happiest, most confident self. I am here
-            to hold your hand every step of the way, and provide that safety net so you can:
-            <div id="myList">  
-            <li>build a stack of undeniable evidence</li>           
-            <li>develop a bulletproof mindset</li>
-            <li>fall in love with every aspect of your life</li>
-            <li>become UNSHAKEABLE
-        </div>
-    </p>
-    <p class="pt-0 text-white">
-            If you’re ready to step into your power, advocate for yourself with ease and grace, and build
-            stronger relationships with yourself and others, you have come to the right place.
-        </p>
-          </div>
 
-    <div class="col-md-4 d-none d-lg-block ps-5 ms-5">
-          <img src="headshotrelax.jpg" alt="headshot" id="myHeadshot" class="img-fluid"/>
-          </div>
+<section class="bsb-hero-1 bsb-overlay bsb-hover-pull" id="hero-image">
+    <div class="container">
+      <div class="row justify-content-center" id="text-block">
+        <div class="col-md-7 mt-5 mb-5">
+          <h1 class="pb-3 text-white">Hey!</h1>
+            <h2 class="text-white">I'm Delphine, a Confidence & Mindset Coach.</h2>
+              <p class="lh-base pt-4 text-white">
+                I help ambitious women rediscover themselves, start actually living instead of existing, and
+                become an ACTIVE participant to a life you love.
+                Because you absolutely deserve it. And the best bit is, your best chapter is just around the
+                corner. 
+                My mission is to empower you to dream big and to aim for the stars, be unapologetically
+                authentic, and show up for yourself to achieve your happiest, most confident self. I am here
+                to hold your hand every step of the way, and provide that safety net so you can:
+              <div id="myList" class="text-white">  
+              <li>build a stack of undeniable evidence</li>           
+              <li>develop a bulletproof mindset</li>
+              <li>fall in love with every aspect of your life</li>
+              <li>become UNSHAKEABLE
+              </div>
+              </p>
+                <p class="pt-0 text-white">
+                  If you’re ready to step into your power, advocate for yourself with ease and grace, and build
+                  stronger relationships with yourself and others, you have come to the right place.
+                </p>
+        </div>
+
+         <div class="col-md-3 d-none d-lg-block">
+            <img src="headshotrelax.jpg" alt="headshot" id="myHeadshot" class="img-fluid"/>
+              <div class="d-flex mt-3 px-1">
+                <button class="hover-tidycal">
+                  <a href="https://tidycal.com/yourelitemindsetcoach" target="_blank">BOOK A CALL!</a>
+                </button>
+              </div>
         </div>
         
-  <h3 class="mx-auto reveal" id="#tidycalLink"><a href="https://tidycal.com/yourelitemindsetcoach" target="_blank">BOOK A CALL!</a>
+  <h3 class="mx-auto reveal"><a href="https://tidycal.com/yourelitemindsetcoach" id="#tidycalLink" target="_blank">BOOK A CALL!</a>
     </h3>
 
 </section>
-</div>
 
-<div class="reveal d-none d-lg-block">  
-<section class="home-quote">
-  <img src="london.jpg" alt="london" class="img-fluid card-img-top rounded-0 london">  
-    <div class="mask text-light d-flex justify-content-center flex-column text-center">
-        <h4 class="card-img-overlay d-none d-lg-block">Stop playing the game. Define it.</h4>
+
+<section class="reveal">
+  <div class="container" style="padding-top: 100px;">
+    <h2 class="text-black text-center fw-light fs-1 mb-5">Partners</h2>
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-2">
+        <img src="pwcLogo.png" alt="PWClogo" style="width: 100px; height: 90px;">
+      </div>
+      <div class="col-sm-2 mt-5">
+        <img src="lamingtonLogo.png" alt="Lamingtonlogo" style="width: 160px; height: 30px;">
+      </div>
     </div>
+  </div>
 </section>
-</div> 
 
-<div class="reveal" id="over">
-<h5>Get started with Elite Mindset Coaching</h5>
-</div>
 
-<section class="reveal pb-4" >
-
-    <div class="row justify-content-center">
-          <div class="col-sm-4" id="resCard">
-            <div class="card text-center"  id="offerCard">
-                <img src="facetoface.jpg" class="card-img-top img-fluid" alt="facetofacecoaching">
+<section class="reveal" >
+<div class="container">
+  <div class="row justify-content-center" style="padding-top: 100px; padding-bottom: 100px;">
+      <div class="col-sm-3" id="resCard">
+          <div class="card text-center"  id="offerCard">
+              <img src="facetoface.jpg" class="card-img-top img-fluid" alt="facetofacecoaching">
             <div class="card-body text-white">
-<h6 class="card-title">1-2-1 Coaching</h6>
-<p class="card-text">My promise to you, by working with me and EMC, is to give you that sparkle for life that’s
-    been missing and rediscover who YOU really are. Time to step into your power.
-</p>
-    <a href="coaching.html" target="_blank" class="btn btn-light shadow-lg" >Discover more</a>
+              <h6 class="card-title">1-2-1 Coaching</h6>
+                <p class="card-text">My promise to you, by working with me, is to give you that sparkle for life that’s
+                                    been missing and rediscover who YOU really are. Time to step into your power.
+                </p>
+                  <a href="coaching.html" target="_blank" class="btn btn-light shadow-lg" >Discover more</a>
             </div>  
-            </div>
-            </div>
+          </div>
+      </div>
           
-    
-          <div class="col-sm-3" id="resCard">
-            <div class="card text-center" id="offerCard">
-                <img src="conference.jpeg" class="card-img-top img-fluid" alt="conferencecoaching" style="height: 190px;">
-            <div class="card-body text-white">
-<h6 class="card-title">Corporate Coaching</h6>
-<p class="card-text">I work with organisations that are committed to their people, ready to invest in them, and
-    want to promote healthy and happy individuals.
-</br>
-</br>
-</p>
-    <a href="coaching.html" target="_blank" class="btn btn-light shadow-lg">Discover more</a>
-            </div>  
-            </div>
-            </div>
+    <div class="col-sm-3" id="resCard">
+      <div class="card text-center" id="offerCard">
+        <img src="conference.jpeg" class="card-img-top img-fluid" alt="conferencecoaching" style="height: 190px;">
+          <div class="card-body text-white">
+            <h6 class="card-title fs-6 mb-3">Corporate Wellness Workshops</h6>
+              <p class="card-text">I work with organisations that are committed to their people, ready to invest in them, and
+                                    want to promote healthy and happy individuals.
+              </p>
+                  <a href="coaching.html" target="_blank" class="btn btn-light shadow-lg">Discover more</a>
+          </div>  
+      </div>
+    </div>
 
-        </div>
+    <div class="col-sm-3" id="resCard">
+      <div class="card text-center" id="offerCard">
+        <img src="hands.jpg" class="card-img-top img-fluid" alt="onlineselfstudy" style="height: 190px;">
+          <div class="card-body text-white">
+            <h6 class="card-title">Online Self-Study</h6>
+              <p class="card-text">I work with organisations that are committed to their people, ready to invest in them, and
+                                    want to promote healthy and happy individuals.
+              </p>
+                  <a href="coaching.html" target="_blank" class="btn btn-light shadow-lg">Discover more</a>
+          </div>  
+      </div>
+    </div>
 
+  </div>
+</div>
 </section>
     
 
 
 
 <section class="reveal d-none d-lg-block">
-    
-     <div class="row">
-        
+  <div class="row">
     <div class="col-lg-9 mx-auto">
-    <div class="p-5 bg-white shadow rounded">
-    <div id="carouselExampleIndicators" class="carousel slide carousel-dark">
-        
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="text-dark" id="carouselText"> I started working with Delphine when I was at a crossroads in my pursuit of starting my own business. Her insight, confidence, and ability to set tasks and challenge myself to succeed has completely set me on the right path. Without her guidance and expertise, I would not be where I am right now. Thank you so much Delphine! Would HIGHLY recommend her to everybody I can!
-              <br/>
+      <div class="p-5 bg-white shadow rounded">
+        <div class="carousel slide carousel-dark">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="text-dark" id="carouselText"> I started working with Delphine when I was at a crossroads in my pursuit of starting my own business. Her insight, confidence, and ability to set tasks and challenge myself to succeed has completely set me on the right path. Without her guidance and expertise, I would not be where I am right now. Thank you so much Delphine! Would HIGHLY recommend her to everybody I can!
+                <br/>
                 <br>
-              Lee Walker Coach <a href="https://instagram.com/leewalkercoach?igshid=NzZhOTFlYzFmZQ==" onclick="openNewPage()">@leewalkercoach</a>
+                Lee Walker Coach <a href="https://instagram.com/leewalkercoach?igshid=NzZhOTFlYzFmZQ==" onclick="openNewPage()">@leewalkercoach</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="text-dark" id="carouselText"> Since working with Delphine, I have felt more confident and more empowered. I am seeing opportunities everywhere which I hadn’t before, asking for help, and really stepping outside of my comfort zone. I have managed to dedicate some time to my goals and actually stick to them – and actually it has been so healthy for me to have these goals. One of my problems is that I tend to delay things and put them off out of fear, which means I sit on things for ages, and that’s how I end up falling back into my low periods. So the goals Delphine set me, alongside her encouragement and support, has been unbelievably helpful in retuning my mind. I haven’t been this happy in months.  <br><br>– A </div>
+              </div>
+            <div class="carousel-item">
+              <div class="text-dark" id="carouselText"> Delphine, thank you so much for your wonderful coaching session. It’s really helped me to restructure my thoughts and to strategically apply myself in ways I know will help me to achieve my goals. You are magic! <br><br>– K </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="text-dark" id="carouselText"> Since working with Delphine, I have felt more confident and more empowered. I am seeing opportunities everywhere which I hadn’t before, asking for help, and really stepping outside of my comfort zone. I have managed to dedicate some time to my goals and actually stick to them – and actually it has been so healthy for me to have these goals. One of my problems is that I tend to delay things and put them off out of fear, which means I sit on things for ages, and that’s how I end up falling back into my low periods. So the goals Delphine set me, alongside her encouragement and support, has been unbelievably helpful in retuning my mind. I haven’t been this happy in months.  <br><br>– A </div>
-          </div>
-          <div class="carousel-item">
-            <div class="text-dark" id="carouselText"> Delphine, thank you so much for your wonderful coaching session. It’s really helped me to restructure my thoughts and to strategically apply myself in ways I know will help me to achieve my goals. You are magic! <br><br>– K </div>
-          </div>
         </div>
-        <button id="carouselButton1" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button id="carouselButton2" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>     
-</div>
-</div>
-
-
-
-</div>
+      </div>     
+    </div>
+  </div>
 </section>
-
 </br>
-<section class="podCast">
-    
-        <div class="row justify-content-center">
-            <div class="col-md-5">
-            <h8>Download my Free E-Book!</h8>
-        </br>
-            <div id="ebookTitle" class="pt-3">CONFIDENCE UNLOCKED: YOUR BEST CHAPTER YET</div>
-            
-            <p class="text-white pt-3">If you are feeling lost, unfulfilled, have trouble connecting with yourself, struggle to advocate for your needs, or fear losing your relationships once you put in boundaries, this is the book for you.
-            
-            I share my absolute fundamentals in 9 simple tips to get you closer to your best chapter yet.</p>
-            <a href="ebook.html" target="_blank" style="text-decoration: none; color: white;">Discover more...</a>
-        </div>
 
-        <div class="col-md-4 pe-5 me-5 d-none d-lg-block">
-                <img src="ebook.png" alt="eBook" id="eBook" class="img-fluid"/>
-        </div>
-        </div>
-      
+
+<section class="podCast mt-3">
+  <div class="row justify-content-center">
+    <div class="col-md-11 mb-1">
+      <h8>Check out my...</h8>
+    </div>
+  </div>
+
+  <div class="row justify-content-center m-3">
+    <div id="ebookTitle" class="col-md-5 mx-3">Newsletter
+      <p class="text-white pt-3">What to expect?
+        <ul style="font-size: 15px;">
+        <li>Penny for your thoughts - the section where you cut your teeth on some good ideas set to inspire, challenge (in a good way), & delight!</li>
+      </br>
+        <li>Psych 101 - as an accredited Psychologist I did not want to leave you wanting for info, so this section is to clarify muddy waters</li>
+      </br>
+        <li>Weekly-ish Wins - celebrating your wins is essential to raising your overall happiness in your day to day. </li>
+      </ul>
+      </p>
+        <a href="newsletter.html" target="_blank" style="text-decoration: none; color: white; font-size: 15px; border-radius: 5%;">Discover more...</a>
+ 
+    </div>
+
+    <div id="ebookTitle" class="col-md-5 mx-3">Podcast
+      <p class="text-white pt-3">Want more from life?</br></br>  No frills, short bingeable episodes, topics to inspire you, and expert (that's me!) bringing in some big opinions, psych, coaching and a LOT of fun!</p>
+  
+      <a href="podcast.html" target="_blank" style="text-decoration: none; color: white; font-size: 15px;">Listen now!</a>
+    </div> 
+  </div>
 </section>
 
 
@@ -219,15 +243,15 @@
 </div>
 
 <div class="col-6 col-md-2">
-    <img src="logoTwo.jpg" id="footerLogo" class="img-fluid">
+    <img src="logoP.png" id="footerLogo" class="img-fluid">
 </div>
       
-<div class="col-6 col-md-1 btn-group" id="socials">
-        <button type="button" class="btn btn-md btn-floating mx-2" style="background-color: white;">
-            <a href="https://www.facebook.com/profile.php?id=100088923888644" target="_blank" class="fab fa-facebook-f"></a>
-        </button>
-        <button type="button" class="btn btn-md btn-floating mx-2" style="background-color: white;">
-          <a href="https://www.tiktok.com/@yourelitemindsetcoach" target="_blank" class="fab fa-tiktok"></a>
+<div class="col-6 col-md-4 btn-group" id="socials">
+        
+        <button type="button" class="btn btn-md btn-floating mx-2">
+          <a href="mailto: hello@delphinelegat.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+          </svg></a>
         </button>
         <button type="button" class="btn btn-md btn-floating mx-2" style="background-color: white;">
           <a href="https://instagram.com/your.elite.mindset.coach?igshid=MzRlODBiNWFlZA==" target="_blank" class="fab fa-instagram"></a>
@@ -247,11 +271,6 @@
       <!-- Copyright -->
 </footer>
 
-<!-- Calendly badge widget begin -->
-<!-- Calendly badge widget begin -->
-
-<!-- Calendly badge widget end -->
-<!-- Calendly badge widget end -->
 
 </body>
 </html>
