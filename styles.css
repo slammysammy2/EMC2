@@ -78,7 +78,13 @@ body{
     display: block;
   }
 
-
+#navCoaching {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(50, 27, 68);
+    padding: 20px;
+    font-family: "Montserrat", sans-serif; 
+}
 
 
 #text-block {
