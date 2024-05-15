@@ -96,7 +96,7 @@ body{
 
 
 #text-block {
-    background: rgb(50, 27, 68, .9);
+    background: rgba(249,229,214, 0.9); 
     border-radius: 10px; 
 }
 
@@ -145,9 +145,10 @@ h3 a {
 
 
 h1 {
-    color: white;
+   
     letter-spacing: 1px;
     text-align: left;
+    font-weight:400;
 }
 
 .playfair-display {
@@ -176,14 +177,14 @@ h2 {
 
 p {
     font-family: "Montserrat", sans-serif;
-    font-weight:200;
+    font-weight:400;
     letter-spacing: 1px;
 }
 
 #myList {
-    color: white;
+    color:rgb(50, 27, 68);
     font-family: "Montserrat", sans-serif;
-    font-weight:200;
+    font-weight:400;
     letter-spacing: 1px;
     text-align: left; 
     margin-top: -5px;
