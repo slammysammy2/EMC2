@@ -1,4 +1,5 @@
 
+
 body{ 
     overflow-x :hidden; 
     } 
@@ -112,7 +113,7 @@ body{
 
 .hover-tidycal {
     background-color: rgb(221, 125,37);
-    padding: 4px 60px;
+    padding: 4px 20px;
     border-radius: 20px;
     border: .5px solid white;
     cursor: pointer;
@@ -145,11 +146,24 @@ h3 a {
 
 h1 {
     color: white;
-    font-family: 'Playfair Display', serif;
-    font-weight: lighter;
     letter-spacing: 1px;
     text-align: left;
 }
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .playfair-display-i {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:italic;
+  }
+  
 
 h2 {
     color: white;
@@ -173,6 +187,8 @@ p {
     letter-spacing: 1px;
     text-align: left; 
     margin-top: -5px;
+    font-size: 13px;
+    margin-top: 10px;
 }
 
 #myHeadshot {
