@@ -177,7 +177,6 @@ h2 {
 p {
     font-family: "Montserrat", sans-serif;
     font-weight:400;
-    letter-spacing: 1px;
 }
 
 #myList {
@@ -202,7 +201,6 @@ p {
 }
 
 h3 {
-    color: white;
     width: 200px;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
