@@ -87,18 +87,22 @@ body{
     font-family: "Montserrat", sans-serif; 
 }
 
-
-
-
-
-
-
-
-
 #text-block {
     background: rgba(249,231,217, 0.9); 
     border-radius: 10px; 
 }
+
+@media (max-width: 768px) { 
+    .col-custom {
+        min-width: 220px;
+        margin-left: -85px;   
+    }
+}
+
+
+
+
+
 
 #hero-image {
     background: url('london1.jpg');
@@ -142,7 +146,11 @@ h3 a {
     font-size: 16px;
 }
 
-
+@media (max-width: 768px) { 
+    #partners {
+       margin-left: 125px;
+    }
+}
 
 h1 {
     font-family: "Playfair Display", serif;
