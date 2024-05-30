@@ -281,6 +281,15 @@ h4 {
 }
 
 
+.carousel-control-prev
+{
+    left: -10%;
+}
+    
+.carousel-control-next {
+    right: -10%;
+}
+
 #carouselText {
     font-family: "Montserrat", sans-serif;
     color:black;
