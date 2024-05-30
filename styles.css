@@ -288,13 +288,11 @@ h4 {
     overflow: hidden; 
 } 
 
-.carousel-item { 
-    position: absolute; 
-} 
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
 
-.carousel-item.active { 
-    transition: all 0.3s ease-out; 
-} 
 
 #carouselText {
     font-family: "Montserrat", sans-serif;
