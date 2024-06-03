@@ -106,12 +106,13 @@ background-color: rgb(50, 27, 68);
 
 .hover-tidycal {
     background-color: rgb(221, 125,37);
-    padding: 10px 50px 10px 50px;
+    padding: 5px 60px 5px 60px;
     border-radius: 20px;
     border: .5px solid white;
     cursor: pointer;
     transition: 0.3s ease;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .hover-tidycal a {
@@ -364,7 +365,7 @@ position: absolute;
 
 #coachingOne {
     width: 340px; 
-    height: 400px; 
+    height: 410px; 
     border-style: solid;
     border-color: rgb(134, 114, 150);
     border-radius: 5%;  
