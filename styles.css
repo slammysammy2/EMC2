@@ -97,7 +97,7 @@ body{
 
 @media (max-width: 768px) { 
     .col-custom {
-        min-width: 220px;
+        min-width: 210px;
     }
 }
 
@@ -144,7 +144,7 @@ h3 a {
 
 @media (max-width: 768px) { 
     #partners {
-       margin-left: 125px;
+       margin-left: 120px;
     }
 }
 
@@ -221,28 +221,9 @@ h4 {
     margin: 40px;
  }
 
- @media (max-width: 576px) { 
-    h5 {
-        font-size: 18px;
-        padding: 10px;
-        margin: 10px;
-    } 
-}
-
-
-
- h6 {
-    font-size: 20px;
- }
-
-
 .card-text {
     font-size: 13px;
-
 }
-
-
-
 
 #offerCard {
     width: 18rem;
