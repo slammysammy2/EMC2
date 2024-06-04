@@ -98,7 +98,6 @@ body{
 @media (max-width: 768px) { 
     .col-custom {
         min-width: 220px;
-        margin-left: -85px;   
     }
 }
 
