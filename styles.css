@@ -221,6 +221,35 @@ h4 {
     margin: 40px;
  }
 
+
+/* slider  */
+
+.tag-list {
+    margin: 0;
+    padding-inline: 15px;
+    list-style: none;
+}
+
+.tag-list li {
+    padding: 1rem;
+}
+
+
+.scroller {
+    max-width: 600px;
+    outline: 3px solid lime;
+}
+
+.scroller_inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* slider  */
+
+
 .card-text {
     font-size: 13px;
 }
