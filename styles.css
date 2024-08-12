@@ -233,7 +233,7 @@ h4 {
 
 
 .scroller {
-
+    display: block;
 }
 
 .scroller[data-animated="true"] {
