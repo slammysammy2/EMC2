@@ -223,19 +223,17 @@ h4 {
 
 
 
-.tag-list {
-    margin: 0;
-    padding-inline: 15px;
-    list-style: none;
-}
 
-.tag-list li {
+
+.tag-list img {
     padding: 1rem;
+    width: 200px;
+    height: 100px;
 }
 
 
 .scroller {
-    max-width: 600px;
+    max-width: 900px;
     outline: 3px solid lime;
 }
 
