@@ -227,8 +227,8 @@ h4 {
 
 .tag-list img {
     padding: 1rem;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 125px;
 }
 
 
@@ -241,7 +241,7 @@ h4 {
     mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
-.scroller[data-animated="true"] .scroller_inner {
+.scroller[data-animated="true"] .scroller__inner {
     width: max-content;
     flex-wrap: nowrap;
     animation: scroll 40s linear infinite;
