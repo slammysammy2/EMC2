@@ -107,7 +107,9 @@ body{
 
 
 #hero-image {
-background-color: rgb(50, 27, 68);
+background-image: url("delMain.JPG");
+background-size: cover;
+background-position: center top;
 }
 
 .hover-tidycal {
