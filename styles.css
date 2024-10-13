@@ -11,6 +11,16 @@ body{
         margin-top: auto;
     }
 
+.navbar { 
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Ensure the navbar stays on top of the hero image */
+}
+
+
 .navbar li {
     list-style-type:none;
     text-align: right;
@@ -45,8 +55,8 @@ body{
 
 .navbar a {
     text-decoration: none;
-    font-size: 18px;
-    color: rgb(50, 27, 68);
+    font-size: 12px;
+    color: white;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
 }
@@ -63,7 +73,7 @@ body{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -71,16 +81,14 @@ body{
   
   .dropdown-content a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
   }
   
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
+  
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -88,8 +96,8 @@ body{
 
 #navCoaching {
     text-decoration: none;
-    font-size: 18px;
-    color: rgb(50, 27, 68);
+    font-size: 12px;
+    color: white;
     padding: 20px;
     font-family: "Montserrat", sans-serif; 
 }
