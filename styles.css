@@ -318,11 +318,15 @@ h4 {
     height: 95vh;
 }
 
-#carouselText {
-    font-family: "Montserrat", sans-serif;
+q::before {
+    content: "\275D";
     color: white;
+    font-size: 50px;
 }
 
+.carousel-inner {
+    transition: .9s ease-in-out left;
+}
 
 .podCast {
     background-color: rgb(134, 114, 150);
