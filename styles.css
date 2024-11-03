@@ -279,9 +279,9 @@ q::before {
     transition: .9s ease-in-out left;
 }
 
-.podCast {
-    background-color: rgb(134, 114, 150);
-    padding: 40px;
+.getInvolved-container {
+    background-color:rgb(50, 27, 68);
+    height: 40vh;
 }
 
 
@@ -440,9 +440,6 @@ color: rgb(50, 27, 68);
 
 #socials button {
     list-style-type:none;
-    text-align: right;
-    display: inline-block;
-    position: relative;
 }
 
 #footerLogo {
