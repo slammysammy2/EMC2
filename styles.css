@@ -281,7 +281,7 @@ q::before {
 
 .getInvolved-container {
     background-color:rgb(50, 27, 68);
-    height: 80vh;
+    height: 90vh;
 }
 
 
@@ -428,12 +428,12 @@ color: rgb(50, 27, 68);
 
 #footerLogo {
     width: 90px;
-    height: 100px;
+    height: 110px;
 }
 
 #footerCredit {
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
 }
 
 
