@@ -129,6 +129,14 @@ body{
     height: 110vh;
 }
 
+.corporate-container {
+    background-image: linear-gradient(0deg, rgba(50, 27, 68, 0.6), rgba(50, 27, 68, 0.6)), url("lamingtonWorkshop.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+}
+
 
 .hover-tidycal {
     background-color: white;
