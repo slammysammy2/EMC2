@@ -266,7 +266,7 @@ h4 {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
 }
 
 q::before {
@@ -281,26 +281,10 @@ q::before {
 
 .getInvolved-container {
     background-color:rgb(50, 27, 68);
-    height: 60vh;
+    height: 80vh;
 }
 
 
-#ebookTitle {
-    color: white;
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    letter-spacing: 1px;
- 
-}
-
-@media (max-width: 576px) { 
-    #ebookTitle {
-        font-size: 20px;
-        margin: 0px;
-        text-align: left;
-    } 
-}
 
 .podCast p {
     
