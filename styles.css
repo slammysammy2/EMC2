@@ -161,6 +161,14 @@ body{
     height: 110vh;
 }
 
+.connect-container {
+    background-image: linear-gradient(0deg, rgba(50, 27, 68, 0.5), rgba(50, 27, 68, 0.5)), url("phone.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 110vh;
+}
+
 
 .hover-tidycal {
     background-color: white;
