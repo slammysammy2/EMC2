@@ -476,6 +476,13 @@ color: rgb(50, 27, 68);
     margin-top: 25px;;
 }
 
+@media (max-width: 576px) { 
+    #footerCredit {
+        width: 100px;
+        height: 40px;
+    } 
+}
+
 
 
 
