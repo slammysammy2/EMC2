@@ -292,6 +292,7 @@ h4 {
 #offerCard {
     width: 18rem;
     background-color: rgb(134, 114, 150);
+    border: none;
 }
 
 @media (max-width: 576px) { 
