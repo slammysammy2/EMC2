@@ -310,6 +310,15 @@ h4 {
     } 
 }
 
+@media (max-width: 1024px) { 
+    #newsCard {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+    } 
+}
+
 
 .testimonial-container {
     background-image: linear-gradient(0deg, rgba(50, 27, 68, 0.5), rgba(50, 27, 68, 0.5)), url("bigBen.jpeg");
